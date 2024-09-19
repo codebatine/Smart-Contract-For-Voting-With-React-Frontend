@@ -1,0 +1,65 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: antiquewhite;
+}
+
+.container {
+background-color: rgb(249, 243, 236);
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+text-align: center;
+width: 600px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.walletConnectButton,
+.startVotingButton,
+.voteButton {
+  background-color: #f6851b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.walletConnectButton:hover,
+.startVotingButton:hover,
+.voteButton:hover {
+  background-color: #f47702;
+}
+
+.voteButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.walletAddress {
+  font-size: 20px;
+  color: rgb(109, 109, 109);
+  margin-bottom: 10px;
+}
+
+.candidateRow {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.status {
+  font-size: 20px;
+  color: rgb(109, 109, 109);
+  margin-bottom: 10px;
+}
