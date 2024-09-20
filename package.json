@@ -1,6 +1,6 @@
 {
   "name": "Smart Contract For Voting With React Frontend",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Sanjin Đumišić",
   "private": true,
   "dependencies": {
