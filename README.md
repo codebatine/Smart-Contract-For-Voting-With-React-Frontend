@@ -21,7 +21,6 @@ This is a DApp that allows users to create polls, vote on movies and determine t
 
    ```bash
    git clone https://github.com/codebatine/Smart-Contract-For-Voting-With-React-Frontend.git
-   cd frontend
    ```
 
 2. Install dependencies:

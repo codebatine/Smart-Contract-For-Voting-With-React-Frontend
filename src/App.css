@@ -148,6 +148,7 @@ button:disabled {
 }
 
 .createPollForm input[type='text'],
+.movieOptionInput input[type='text'],
 .createPollForm input[type='number'] {
   width: 100%;
   padding: 15px;
