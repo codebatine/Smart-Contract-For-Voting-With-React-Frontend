@@ -10,6 +10,7 @@ import {
   getWinningMovie,
   getPollEndTime,
 } from './utilities/ContractInteractions';
+import Footer from './components/Footer';
 
 const Voting = () => {
   const [walletAddress, setWalletAddress] = useState('');
@@ -226,6 +227,8 @@ const Voting = () => {
           End Voting
         </button>
       )}
+
+      <Footer />
     </div>
   );
 };
